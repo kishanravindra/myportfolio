@@ -1,0 +1,10 @@
+.Layout_Div,
+.SocialMedia {
+    width: 50%;
+}
+
+.SocialMedia {
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+}

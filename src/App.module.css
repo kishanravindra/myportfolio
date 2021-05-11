@@ -1,0 +1,15 @@
+.Home {
+    display: flex;
+    flex-direction: 'row';
+}
+
+.SecondBox {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow-y: hidden;
+    background-color: #1abc9c;
+}

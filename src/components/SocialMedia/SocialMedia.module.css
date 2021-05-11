@@ -1,0 +1,71 @@
+.SocialMedia {
+    -webkit-animation: swing-in-top-fwd 0.5s
+        cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
+    animation: swing-in-top-fwd 0.5s
+        cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
+    /* background-color: aquamarine; */
+    width: 70%;
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+}
+
+.Logo {
+    width: 30%;
+    /* background-color: chartreuse; */
+}
+
+@-webkit-keyframes swing-in-top-fwd {
+    0% {
+        -webkit-transform: rotateX(-100deg);
+        transform: rotateX(-100deg);
+        -webkit-transform-origin: top;
+        transform-origin: top;
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: rotateX(0deg);
+        transform: rotateX(0deg);
+        -webkit-transform-origin: top;
+        transform-origin: top;
+        opacity: 1;
+    }
+}
+@keyframes swing-in-top-fwd {
+    0% {
+        -webkit-transform: rotateX(-100deg);
+        transform: rotateX(-100deg);
+        -webkit-transform-origin: top;
+        transform-origin: top;
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: rotateX(0deg);
+        transform: rotateX(0deg);
+        -webkit-transform-origin: top;
+        transform-origin: top;
+        opacity: 1;
+    }
+}
+
+.IconButton {
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+
+.IconButton:hover {
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-25px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
