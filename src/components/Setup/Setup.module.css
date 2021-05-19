@@ -1,0 +1,26 @@
+.Setup {
+    font-family: 'Quicksand';
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid #d1e8f5;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+.FooterText {
+    margin-right: 20px;
+}
+
+.FooterButton {
+    margin-left: 10px;
+    font-size: 16px;
+    text-decoration: underline;
+    text-transform: none;
+    color: blue;
+}
+
+.ListHeader {
+    background: #d1e8f5;
+    display: flex;
+    justify-content: space-between;
+}

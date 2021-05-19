@@ -1,0 +1,60 @@
+.Root {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    align-items: center;
+    margin: 2px 0px;
+}
+
+/*----Col1-----*/
+.Col1 {
+    flex-shrink: 1;
+    height: 20px;
+    margin: 0px 12px;
+    padding: 2px;
+    font-family: 'Quicksand';
+}
+
+.Col1_Account {
+    background-color: orange;
+    width: 20px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.Col1_Instructions {
+    background-color: transparent;
+    width: 150px;
+    border-radius: 0%;
+    text-align: start;
+}
+
+/*----Col2-----*/
+.Col2 {
+    width: 200px;
+    height: 35px;
+    display: fixed;
+    flex-grow: 1;
+}
+
+.Col2_Account {
+    padding-top: 5px;
+    margin: 0px 20px;
+    padding-left: 5px;
+}
+
+.Col2_Instructions {
+    padding-top: 8px;
+    margin: 0px;
+    padding-left: 20px;
+}
+/*----Col3-----*/
+.Col3 {
+    flex-shrink: 0;
+    display: flex;
+}
+
+.BtnMain {
+    justify-content: space-around;
+    margin: 0px 10px;
+}

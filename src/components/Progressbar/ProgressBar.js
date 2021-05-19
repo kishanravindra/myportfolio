@@ -44,7 +44,7 @@ const progressBar = () => {
                         <span
                             className={classes.ProgressSpan}
                         >
-                            {el.value}%
+                            {el.value}
                         </span>
                     </Box>
                     <ProgressBarLine

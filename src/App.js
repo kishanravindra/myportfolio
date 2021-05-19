@@ -10,6 +10,9 @@ import Layout from './hoc/Layout';
 import Home from './containers/Home';
 import Skills from './containers/Skills';
 import Contact from './containers/Contact';
+import Projects from './containers/Projects';
+
+import SecondBlock from './containers/SecondBlock';
 
 import classes from './App.module.css';
 
@@ -44,6 +47,10 @@ class App extends Component {
                                 component={Contact}
                             />
                             <Route
+                                path="/projects"
+                                component={Projects}
+                            />
+                            <Route
                                 path="/skills"
                                 component={Skills}
                             />
@@ -54,7 +61,7 @@ class App extends Component {
                         </Switch>
                     </Layout>
                     <Box className={classes.SecondBox}>
-                        Hello
+                        <SecondBlock />
                     </Box>
                 </Box>
             </ThemeProvider>

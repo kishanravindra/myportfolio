@@ -4,12 +4,16 @@
 }
 
 .SecondBox {
-    width: 50%;
-    height: 100vh;
+    /* width: 50%; */
+
+    /* height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    overflow-y: hidden;
-    background-color: #1abc9c;
+    overflow-y: hidden; */
+    /* background-color: #1abc9c; */
+
+    width: 50%;
+    background-color: #fff;
 }
